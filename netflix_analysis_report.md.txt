@@ -1,0 +1,13 @@
+# Netflix Analysis Report
+
+## Key Findings
+- Total Movies: XXX
+- Total TV Shows: XXX
+- Most productive countries: USA, India, UK...
+- Most common genres: Drama, Comedy, Action...
+- Trend: Number of shows added increased over the years.
+
+## Visualizations
+- Movies vs TV Shows: [Bar Chart]
+- Top 10 Countries: [Bar Chart]
+- Genre Distribution: [Bar Chart]

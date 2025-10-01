@@ -1,0 +1,35 @@
+# Netflix Data Analysis
+
+# Import Libraries
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Load Dataset
+df = pd.read_csv('../data/netflix_titles.csv')
+
+# Quick Look
+print(df.head())
+print(df.info())
+print(df.describe())
+
+# Content Type Distribution
+plt.figure(figsize=(6,4))
+sns.countplot(data=df, x='type')
+plt.title('Movies vs TV Shows')
+plt.show()
+
+# Top 10 Countries
+top_countries = df['country'].value_counts().head(10)
+plt.figure(figsize=(10,5))
+sns.barplot(x=top_countries.index, y=top_countries.values)
+plt.title('Top 10 Countries by Content')
+plt.xticks(rotation=45)
+plt.show()
+
+# Genre Distribution
+genres = df['listed_in'].str.split(', ', expand=True).stack().value_counts()
+plt.figure(figsize=(10,5))
+sns.barplot(x=genres.values, y=genres.index)
+plt.title('Genre Distribution')
+plt.show()
