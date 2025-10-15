@@ -1,0 +1,9 @@
+Netflix Data Analysis Report Summary (sample):
+
+1. Total Titles Analyzed: (sample) 4
+2. Movies: 3
+3. TV Shows: 1
+4. Top 3 Countries (sample): United States, India, United Kingdom
+5. Most Common Ratings (sample): PG-13, TV-MA, PG
+6. Peak Release Years (sample): 2019, 2018, 2015
+7. Popular Genres (sample): Comedies, Dramas, Documentaries

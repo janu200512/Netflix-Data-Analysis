@@ -1,0 +1,5 @@
+show_id,type,title,director,cast,country,date_added,release_year,rating,duration,listed_in,description
+s1,Movie,Example Movie A,Director A,Actor X; Actor Y,United States,September 9, 2019,2019,PG-13,90 min,Comedies,An example movie description.
+s2,TV Show,Example Show B,Director B,Actor Z,India,July 17, 2018,2018,TV-MA,2 Seasons,Dramas,A sample show description.
+s3,Movie,Example Movie C,No Director Info,No Cast Info,United Kingdom,June 1, 2015,2015,PG,95 min,Documentaries,Another sample description.
+s4,Movie,Example Movie D,Director D,Actor A; Actor B,Unknown,January 1, 2020,2020,TV-14,100 min,Action & Adventure,Sample description here.
